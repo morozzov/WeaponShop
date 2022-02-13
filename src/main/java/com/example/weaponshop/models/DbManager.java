@@ -15,8 +15,8 @@ public class DbManager {
     public TableGuns tableGuns;
 
     private DbManager(){
-        String url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=weapon_shop";
-        String login = "postgres";
+        String url = "jdbc:postgresql://194.58.123.204:5432/rmgdb?currentSchema=public";
+        String login = "rmg";
         String password = "123";
 
         tableGuns = new TableGuns(url, login, password);
